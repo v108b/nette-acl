@@ -1,0 +1,23 @@
+{
+	"name": "v108b/nette-acl",
+	"description": "Nette permission extension",	
+	"type": "project",
+	"license": ["MIT"],
+	"authors": [
+		{
+			"name": "Martin Matoušek",
+			"email": "martin.matousek@gmail.com"
+		},
+		{
+			"name": "Václav Juchelka",
+			"email": "vjuchelka@gmail.com"
+		}		
+	],
+	"require": {
+		"php": ">= 5.3.7",
+		"nette/nette": "~2.3.0",		
+	},
+	"require-dev": {
+		"nette/tester": "~1.3"
+	}
+}
