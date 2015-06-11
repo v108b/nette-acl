@@ -35,6 +35,11 @@ abstract class AclHelper
 		}
 	}
 
+    public function getRoles($role) {
+        $roles = array_merge(array($role), $this->acl->getRoleParents($role));
+        return $roles;
+    }
+
 	public function addResources($resources)
 	{
 		if ($resources !== self::ALL) {
